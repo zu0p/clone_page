@@ -28,7 +28,7 @@ const JoinContent = () => {
             and our launch deals.
           </div>
         </div>
-
+ 
         <input
           type="email"
           name="email"

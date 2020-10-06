@@ -8,7 +8,7 @@ The designs were created to the following widths:
 - Desktop: 1440px
 
 ## Colors
-
+ 
 ### Primary
 
 - Desaturated Red: hsl(0, 36%, 70%)

@@ -44,7 +44,7 @@
     }
     #mobile_img{
         display: block;
-    }
+    } 
     .container{
         display: grid;
         grid-template-rows: 10% 35% 60%;
@@ -54,7 +54,7 @@
         grid-row-end: 1;
         padding-top: 1em;
         padding-left: 2em;
-    }    
+    }     
     .content{
         grid-row-start: 3;
         grid-row-end: 3;
