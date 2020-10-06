@@ -11,9 +11,11 @@ const Home = () => {
             <div className="logo">
                 <img src={logoImg} alt="" />
             </div>
+
             <div className="content">
                 <JoinContent />
             </div>
+            
             <div className="img_wrapper">
                 <img className="img_responsive" id="desktop_img" src={desktopImg} alt="" />
                 <img className="img_responsive" id="mobile_img" src={mobileImg} alt="" />

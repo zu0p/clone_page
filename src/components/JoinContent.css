@@ -32,7 +32,7 @@
     border: 1px solid hsl(0, 36%, 70%);
     border-radius: 50px;    
     outline: none;
-}
+} 
 
 .errorMessage{
     color: hsl(0, 93%, 68%);

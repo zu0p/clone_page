@@ -43,10 +43,10 @@ const JoinContent = () => {
         <div>
           {errors.email && <span className="errorMessage">{errors.email}</span>}
         </div>
-        
+
       </div>
     </form>
   );
-};
+}; 
 
 export default JoinContent;

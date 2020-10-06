@@ -8,4 +8,4 @@ export default function validate({ email }) {
     }
   
     return errors
-}
+} 
