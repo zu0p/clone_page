@@ -16,11 +16,12 @@ const JoinContent = () => {
   return (
     <form onSubmit={handleSubmit} noValidate>
       <div className="join_wrapper">
-        <div className="comming_soon_wrapper">
+        <div className="coming_soon_wrapper">
           <div id="pink_text">W E ' R E</div>
           <div id="black_text">C O M I N G</div>
           <div id="black_text">S O O N</div>
         </div>
+        
         <div className="detail_wrapper">
           <div>
             Hello fellow shoppers! We're currently building our new fashon
@@ -45,7 +46,7 @@ const JoinContent = () => {
         </button>
 
         </div>
-        <div>
+        <div className="err_wrapper">
           {errors.email && <span className="errorMessage">{errors.email}</span>}
         </div>
 
