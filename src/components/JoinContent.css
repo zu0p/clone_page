@@ -24,6 +24,9 @@
     width: 28em;
 }
  
+.email_wrapper{
+    height: 60px;
+}
 .email_field{
     height: 30px;
     width: 70%;
@@ -32,6 +35,7 @@
     border: 1px solid hsl(0, 36%, 70%);
     border-radius: 50px;    
     outline: none;
+    position: absolute;
 } 
 
 .email_field_invalidate{
@@ -42,17 +46,20 @@
     border: 2px solid hsl(0, 93%, 68%);
     border-radius: 50px;    
     outline: none;
+    position: absolute;
 }
 
 .errorMessage{
     color: hsl(0, 93%, 68%);
     padding-left: 30px;
+    padding-top: 10px;
 }
 
 .btn{
-    margin-left: -60px;
-    height: 48px;
-    width: 60px;
+    position: absolute;
+    margin-left: 70%;
+    height: 53px;
+    width: 80px;
     border-radius: 50px;
     border: none;
     outline: none;

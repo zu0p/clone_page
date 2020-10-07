@@ -29,6 +29,8 @@ const JoinContent = () => {
           </div>
         </div>
  
+        <div className="email_wrapper">
+          
         <input
           type="email"
           name="email"
@@ -42,6 +44,7 @@ const JoinContent = () => {
           <img src={go} alt="btnImage" />
         </button>
 
+        </div>
         <div>
           {errors.email && <span className="errorMessage">{errors.email}</span>}
         </div>
