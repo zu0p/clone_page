@@ -34,6 +34,16 @@
     outline: none;
 } 
 
+.email_field_invalidate{
+    height: 30px;
+    width: 70%;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    border: 2px solid hsl(0, 93%, 68%);
+    border-radius: 50px;    
+    outline: none;
+}
+
 .errorMessage{
     color: hsl(0, 93%, 68%);
     padding-left: 30px;
